@@ -1,0 +1,96 @@
+.container {
+    width: 100%;
+    margin-bottom: 20px;
+
+    .wrapper {
+        width: 40%;
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 25px;
+
+        .fgs {
+            width: 50%;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: whitesmoke;
+            color: rgb(98, 98, 185);
+        }
+
+        .fg {
+            width: 50%;
+            border-radius: 5px;
+            padding: 10px;
+        }
+    }
+
+    .halo {
+        display: flex;
+        flex: auto;
+        padding: 20px;
+        //border-radius: 5px;
+        //-webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        //box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        //height: 50%;
+        margin-bottom: 30px;
+
+        .wrapper {
+            width: 20%;
+            display: flex;
+            padding: 20px;
+            align-items: center;
+            justify-content: space-between;
+
+            .fg {
+                border-radius: 5px;
+                padding: 10px;
+                background-color: whitesmoke;
+                color: rgb(98, 98, 185);
+            }
+        }
+
+        .dropdown {
+            width: 100%;
+            display: flex;
+            padding: 10px;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 10px;
+
+            .dd {
+                width: 100%;
+                padding: 10px;
+
+            }
+        }
+    }
+
+    .containers {
+        display: flex;
+        width: 30%;
+        height: 38%;
+        padding: 8px;
+        border-radius: 5px;
+        //-webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        //box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        margin-bottom: 30px;
+        margin-left: 0px;
+        
+        
+    }
+
+    .containerss {
+        display: flex;
+        align-items: center;
+        height: 48%;
+        padding: 28px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .nodata{
+        margin-left: 5%;
+    }
+
+}
